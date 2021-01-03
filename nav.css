@@ -1,0 +1,69 @@
+body {
+    background-image: url(5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.va {
+    width: 80%;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.va ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.va ul li a {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+    padding: 25px 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.va ul li a:hover {
+    color: green;
+    background-color: pink;
+}
+
+.pa {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pa p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 300px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.btn {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn button {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ccc;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 0px 20px;
+    text-transform: capitalize;
+}
